@@ -280,7 +280,10 @@
 			tab.addClass("curBg");
 			tab.siblings('li').removeClass("curBg");
 			var id=tab.attr("id");
-			var parent=tab.closest(".same-box-right")
+			
+			/* var parent=tab.closest(".same-box-right") */
+			
+			
 			parent.find(".child_floor_show").hide();
 			$("#child_floor_show_"+id).show();
 		});
