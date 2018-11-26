@@ -59,8 +59,8 @@
 
 
 /************楼层样式*****style2模板********/
-.child_floor_style2{width:580px;overflow:hidden;float:left;height:391px;}
-.child_floor_style2 ul{overflow:hidden;height:391px;width:670px;}
+.child_floor_style2{width:100%; overflow:hidden;float:left;height:391px;}
+.child_floor_style2 ul{overflow:hidden;height:391px;width:100%;}
 .child_floor_style2 ul li{float:left;height:195px;width:193px;}
 .child_floor_style2 ul li .goods-img{height:130px;margin:5px auto;width:130px;}
 .child_floor_style2 ul li .goods-name{height:20px;margin:0 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:170px;}
