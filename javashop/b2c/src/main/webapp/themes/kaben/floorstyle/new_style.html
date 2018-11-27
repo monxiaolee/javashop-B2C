@@ -41,13 +41,13 @@
 	.goods-title-top
 </style>
 <div class="index-same-fool">
-	<div class="box-css"></div>
+		<div class="box-css"></div>
 		<div class="index-same-tile index-food">
 			<h1 id="title_id" >
-			<#if floor?exists >
-				${floor.title}
-			</#if>
-			<span></span>
+				<#if floor?exists >
+					${floor.title}
+				</#if>
+				<span></span>
 			</h1>
 			
 
@@ -283,6 +283,7 @@
 			
 			/* var parent=tab.closest(".same-box-right") */
 			
+			var parent=tab.closest(".index-same-fool").find(".same-box-right")
 			
 			parent.find(".child_floor_show").hide();
 			$("#child_floor_show_"+id).show();
