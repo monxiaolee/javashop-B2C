@@ -385,7 +385,7 @@ a {
 .footer .service_area .service_item .item ul li{margin-top:4px;}
 .footer .service_area .service_item .item ul li a{color:#999999;font-size:12px;}
 .footer .service_area .service_item .item img{margin-top:10px;margin-left:30px;_margin-top:20px;width:110px;height:110px;}
-.footer .copyright{width:650px;height:50px;margin:30px auto;}
+.footer .copyright{width:650px;height:50px;margin:30px auto;text-align:center;}
 .footer .copyright ul{margin:0 auto;width:450px;}
 .footer .copyright ul li{float:left;height:12px;border-right:1px solid #cfcfcf;padding:0 20px;margin-top:5px;line-height:10px;_line-height:15px;}
 .footer .copyright ul .last{border:none;}

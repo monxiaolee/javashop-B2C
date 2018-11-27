@@ -90,11 +90,11 @@
 }
 .index-same-fool .index-same-tile ul li a{margin-right:10px;color:#666;border-right:1px solid #aaa;padding:0px 15px 0px 0px}
 .index-same-fool .index-same-tile ul .last a{padding:0px;border:0px none;}
-.same-box{   background: #fff;
+.same-box{   
+	background: #fff;
     height:425px;
     overflow: hidden;
     width: 1162px;
-    border: 1px solid #d1d3d4;
     border-top:0px none;
     padding: 22px 24px 22px 12px;
 }
