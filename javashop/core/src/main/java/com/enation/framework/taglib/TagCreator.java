@@ -11,8 +11,8 @@ import freemarker.template.TemplateModelException;
 /**
  * 标签创建者
  * 
- * @author kingapex
- *2013-8-1上午9:48:05
+ * @author monxiaolee
+ *2017-8-1上午9:48:05
  */
 public class TagCreator implements TemplateMethodModel {
 	

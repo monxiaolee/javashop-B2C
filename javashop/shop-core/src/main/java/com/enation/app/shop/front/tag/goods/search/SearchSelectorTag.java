@@ -15,7 +15,7 @@ import freemarker.template.TemplateModelException;
 /**
  * 商品搜索选择器标签
  * 
- * @author kingapex 2013-7-29下午5:40:46
+ * @author monxiaolee 2018-7-29下午5:40:46
  */
 @Component
 @Scope("prototype")

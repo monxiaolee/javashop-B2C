@@ -23,9 +23,9 @@ import freemarker.template.TemplateModelException;
  * 
  * 特定楼层标签标签
  * 
- * @author jianghongyan
- * @version 1.0.0,2016年6月20日
- * @since v6.1
+ * @author monxiaolee
+ * @version 1.0.0,2018年6月20日
+ * @since v0.1
  */
 @Component
 @Scope("prototype")
@@ -73,7 +73,7 @@ public class FloorTag extends BaseFreeMarkerTag {
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("floor", floor);
 		map.put("childFloors", childFloors);
-
+		
 		return map;
 	}
 
