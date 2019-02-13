@@ -20,7 +20,7 @@ public class EopSetting {
 	
 	public static String  FILE_STORE_PREFIX ="fs:"; //本地文件存储前缀
 	
-	public static String INSTALL_LOCK ="NO"; //是否已经安装
+	public static String INSTALL_LOCK ="NO"; //是否已经安装 默认是NO
 	
 	public static boolean IS_DEMO_SITE=false; //是否是演示站
 	
