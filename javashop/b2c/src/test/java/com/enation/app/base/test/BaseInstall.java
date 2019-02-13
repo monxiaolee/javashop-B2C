@@ -43,9 +43,6 @@ public class BaseInstall {
 		SqlParserFactory.resetParser();
 		EopSetting.INSTALL_LOCK="NO";
 		
-		
-		
-		
 		//参数初始化测试
 		mockMvc.perform(
 				
@@ -73,7 +70,7 @@ public class BaseInstall {
 				 .accept(MediaType.APPLICATION_JSON)
 
 		).andDo(MockMvcResultHandlers.print())
-		.andExpect(MockMvcResultMatchers.jsonPath("$.result").value(1) );
+		.andExpect(MockMvcResultMatchers.jsonPath("$.result").value(1));
 		
 		//安装测试
 		mockMvc.perform(
